@@ -1,0 +1,13 @@
+name: SpawnCommand
+main: SpawnCommand\Main
+version: 1.0.0
+api: [3.0.0]
+author: benzo
+commands:
+  spawn:
+    description: "Basic /spawn command"
+    permission: spawn.cmd
+permissions:
+  spawn.cmd:
+  default: true
+  description: ""  
